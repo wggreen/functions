@@ -1,3 +1,4 @@
 import nameMyFavoriteDogBreed from './favoriteBreed.js'
 
-nameMyFavoriteDogBreed()
+const output = nameMyFavoriteDogBreed("meow")
+console.log(`When it comes to pets, ${output}`)
